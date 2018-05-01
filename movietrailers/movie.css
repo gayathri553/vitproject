@@ -1,0 +1,79 @@
+ img{
+ width:500px;
+ height:500px;
+ padding:70px;
+ float:left;
+ }
+ img:hover{
+ background-color:cyan;
+ cursor:pointer;
+ border-radius: 30px;
+ }
+ h2{
+ font-family:arial;
+ color:cyan;
+ text-align:center;
+ font-size:30px;
+ background-color:slategray;
+ padding:30px;
+ }
+ 
+ .image1{
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    color:white;
+    font-family:arial;
+    font-size:30px;
+}
+.image2{
+    position: absolute;
+    top:180px;
+    right:550px;
+    color:white;
+    font-family:arial;
+    font-size:30px;
+}
+
+.image3{
+    position: absolute;
+    color:white;
+    font-size:30px;
+    font-family:arial;
+    bottom:-200px;
+    left: 3em;
+    width: 400px;
+}
+
+.image4{
+    position: absolute;
+    bottom: -200px;
+    right: 18em;
+    color:white;
+    font-size:30px;
+    font-family:arial;
+    
+}
+@media only screen and (min-width:0px) and (max-width:450px)
+{
+    {
+        width:100%;
+    }
+    {
+        width:100%;
+    }
+    {
+        width:33%;
+        float:left;
+    }
+    .yellow{
+        width:33%;
+        float:right;
+    }
+    .green{
+        width:33%;
+        float:right;
+    }
+    
+}
+

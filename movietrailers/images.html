@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"href="movie.css">
+<title>Movie Trailers</title>
+</head>
+<body>
+ <h2>Movie trailers</h2>
+ <div id="utube">
+     <span class="close">&times;</span>
+     <iframe width="560"height="315" src=""frameborder="0"allow="autoplay;"allowfullscreen></iframe>
+ </div>
+ <div id="movies1">
+ <div class="image1">Vinnavayya Rammayya</div>
+ <img src="https://i.pinimg.com/originals/47/c6/88/47c688ec500d124b64a62ba448bdbd91.jpg"onclick="on.fun("6WgnE6J07e8")"/>
+ <div class="image2">Hello</div>
+ <img src="https://i0.wp.com/southreel.com/wp-content/uploads/2017/12/Akhil-Akkinenichiranjeevihello-event-in-hyderbadKalyani-Priyadarshantelugu-trailersAnup-RubensHELLO-USA-tourupcoming-telugu-movieslatest-telugu-movieslatest-telugu-trailersteaser-trailer-1.jpg?ssl=1"onclick="fun("fGqdfytgRo8")"/>
+ <div class="image3">Charuseela</div>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLH-mul-xxDqbwqrKCDl7J359ELLrdTfdrmM9si4E7fP9NpoEe"onclick="fun("fRk86VZyJsU")"/>
+ <div class="image4">Fidaa</div>
+ <img src="https://movie.webindia123.com/movie/2017/regional/july/Fidaa/Fidaa.jpg"onclick="fun("AVtvjfoXNXc")"/>
+ </div>
+ <script>
+     var modal=document.getElementById("movies1");
+     var span=document.getElementsByClassName("close")[0];
+     fun=function(c){
+        modal.style.display="block";
+        document.getElementsByTagName("iframe")[0].setAttribute("src",'https://www.youtube.com/embed/'+c);
+     }
+     span.onclick= function(){
+         modal.style.display="none";
+
+     }
+     window.onclick=function(event){
+         if(event.target==modal)
+         {
+             modal.style.display="none";
+         }
+     }
+     </script>
+
+</body>
+</html>
+
